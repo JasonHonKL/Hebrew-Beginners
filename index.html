@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>希伯來文第一冊 · 零基礎從右到左</title>
+<meta name="description" content="給零基礎學習者的希伯來文入門：字母、母音、單字、問候、文法與數字，全部用繁體中文說明。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="progress-top" aria-hidden="true"><span id="progressBar"></span></div>
+
+<header class="topbar">
+  <a class="brand" href="#top"><span class="brand-mark">א</span><span>希伯來文第一冊</span></a>
+  <div class="top-right">
+    <span class="top-meta">零基礎 · 繁體中文 · 8 課</span>
+    <button class="icon-btn" id="menuBtn" aria-label="打開課程選單" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<div class="shell">
+  <aside class="sidebar" id="sidebar" aria-label="課程目錄">
+    <p class="side-kicker">課程目錄</p>
+    <nav class="side-nav">
+      <a href="#start" class="side-link"><span>00</span>先懂三件事</a>
+      <a href="#alphabet" class="side-link"><span>01</span>字母表</a>
+      <a href="#vowels" class="side-link"><span>02</span>母音與讀音</a>
+      <a href="#words" class="side-link"><span>03</span>第一批單字</a>
+      <a href="#greetings" class="side-link"><span>04</span>問候與自我介紹</a>
+      <a href="#grammar" class="side-link"><span>05</span>句子怎麼組</a>
+      <a href="#numbers" class="side-link"><span>06</span>數字 1–10</a>
+      <a href="#quiz" class="side-link"><span>07</span>複習測驗</a>
+    </nav>
+    <div class="side-progress">
+      <div class="side-progress-head"><span>你的進度</span><strong id="progressText">0 / 8</strong></div>
+      <div class="bar"><span id="sideBar"></span></div>
+      <p class="side-note">完成一課就按「標記完成」。進度只存在你的瀏覽器。</p>
+      <button class="text-btn" id="resetProgress">重設進度</button>
+    </div>
+  </aside>
+
+  <main id="top">
+    <section class="hero wrap">
+      <p class="eyebrow">HEBREW · 從右到左</p>
+      <h1>先學會讀，<br>再學會說。</h1>
+      <p class="hero-lede">希伯來文不是「很難的符號」，它只有 22 個字母。這門課從方向、字母與母音開始，帶你讀出第一批單字與問候。</p>
+      <div class="hero-hebrew" lang="he" dir="rtl">שָׁלוֹם</div>
+      <div class="hero-meta">
+        <span><strong>8</strong> 課</span>
+        <span><strong>22</strong> 個字母</span>
+        <span><strong>約 60</strong> 分鐘</span>
+        <span><strong>零基礎</strong> 適用</span>
+      </div>
+      <div class="hero-actions">
+        <a class="btn primary" href="#start">開始第一課</a>
+        <button class="btn ghost" data-audio="assets/audio/phrases/shalom.mp3">聽 <span lang="he" dir="rtl">שָׁלוֹם</span></button>
+      </div>
+    </section>
+
+    <section class="lesson wrap" id="start" data-lesson="start">
+      <div class="lesson-head">
+        <span class="lesson-num">00</span>
+        <div>
+          <p class="lesson-kicker">開始之前</p>
+          <h2>先懂三件事</h2>
+          <p class="lesson-time">約 4 分鐘</p>
+        </div>
+      </div>
+
+      <div class="fact-grid">
+        <article class="fact">
+          <span class="fact-num">1</span>
+          <h3>從右到左</h3>
+          <p>希伯來文 <span class="he" lang="he" dir="rtl">עברית</span> 從右邊讀到左邊。書本的「第一頁」在右邊，句子的第一個字也在右邊。</p>
+        </article>
+        <article class="fact">
+          <span class="fact-num">2</span>
+          <h3>22 個字母</h3>
+          <p>全部都是子音。日常文字通常不標母音，但入門時我們會用 <strong>niqqud</strong>（點與線）把母音標出來。</p>
+        </article>
+        <article class="fact">
+          <span class="fact-num">3</span>
+          <h3>沒有大小寫</h3>
+          <p>希伯來字母沒有大寫、小寫之分。五個字母在<strong>字尾</strong>會換成另一種寫法，稱為 final form。</p>
+        </article>
+      </div>
+
+      <div class="callout">
+        <span class="label">先記住這句話</span>
+        <p class="callout-he" lang="he" dir="rtl">אֲנִי לוֹמֵד עִבְרִית.</p>
+        <p class="translit">ani lomed ivrit.</p>
+        <p>我是（男性）學希伯來文的人。女性說 <span class="he" lang="he" dir="rtl">לוֹמֶדֶת</span>（lomedet）。</p>
+        <button class="audio-btn" data-audio="assets/audio/phrases/ani-lomed-ivrit.mp3">聽發音</button>
+      </div>
+
+      <button class="complete-btn" data-complete="start">標記完成</button>
+    </section>
+
+    <section class="lesson wrap" id="alphabet" data-lesson="alphabet">
+      <div class="lesson-head">
+        <span class="lesson-num">01</span>
+        <div>
+          <p class="lesson-kicker">閱讀的起點</p>
+          <h2>字母表</h2>
+          <p class="lesson-time">約 12 分鐘 · 點字母看發音</p>
+        </div>
+      </div>
+      <p class="section-lede">先不要背名字。點每一張卡，聽一次、跟著唸一次，注意字母的形状與方向。</p>
+      <div class="letter-grid" id="letterGrid"></div>
+      <div class="final-forms">
+        <h3>五個字尾形</h3>
+        <p>這些字母出現在單字最後時，會換成下面的寫法；意思與發音不變。</p>
+        <div class="final-grid" id="finalGrid"></div>
+      </div>
+      <button class="complete-btn" data-complete="alphabet">標記完成</button>
+    </section>
+
+    <section class="lesson wrap" id="vowels" data-lesson="vowels">
+      <div class="lesson-head">
+        <span class="lesson-num">02</span>
+        <div>
+          <p class="lesson-kicker">把子音唸出來</p>
+          <h2>母音與讀音</h2>
+          <p class="lesson-time">約 8 分鐘</p>
+        </div>
+      </div>
+      <p class="section-lede">希伯來文的母音寫在字母<strong>下方或上方</strong>。先學五個核心母音：a、e、i、o、u。</p>
+      <div class="vowel-grid" id="vowelGrid"></div>
+      <div class="drill">
+        <h3>拼讀練習</h3>
+        <p>同一個字母 ב，換上不同母音，讀音就不同。點一下聽。</p>
+        <div class="drill-row" id="drillRow"></div>
+      </div>
+      <button class="complete-btn" data-complete="vowels">標記完成</button>
+    </section>
+
+    <section class="lesson wrap" id="words" data-lesson="words">
+      <div class="lesson-head">
+        <span class="lesson-num">03</span>
+        <div>
+          <p class="lesson-kicker">第一批單字</p>
+          <h2>12 個一定能用到的字</h2>
+          <p class="lesson-time">約 8 分鐘 · 點卡翻面</p>
+        </div>
+      </div>
+      <p class="section-lede">先看希伯來文，猜意思，再翻面。每張卡都有發音。</p>
+      <div class="flash-grid" id="flashGrid"></div>
+      <button class="complete-btn" data-complete="words">標記完成</button>
+    </section>
+
+    <section class="lesson wrap" id="greetings" data-lesson="greetings">
+      <div class="lesson-head">
+        <span class="lesson-num">04</span>
+        <div>
+          <p class="lesson-kicker">第一次對話</p>
+          <h2>問候與自我介紹</h2>
+          <p class="lesson-time">約 10 分鐘</p>
+        </div>
+      </div>
+      <p class="section-lede">先聽整段，再看逐句。希伯來文從右到左，所以第一句在畫面的右邊。</p>
+      <div class="dialogue" id="dialogue"></div>
+      <h3 class="subhead">常用句</h3>
+      <div class="phrase-list" id="phraseList"></div>
+      <button class="complete-btn" data-complete="greetings">標記完成</button>
+    </section>
+
+    <section class="lesson wrap" id="grammar" data-lesson="grammar">
+      <div class="lesson-head">
+        <span class="lesson-num">05</span>
+        <div>
+          <p class="lesson-kicker">句子不是逐字翻</p>
+          <h2>句子怎麼組</h2>
+          <p class="lesson-time">約 8 分鐘</p>
+        </div>
+      </div>
+      <div class="grammar-grid">
+        <article class="grammar-card">
+          <h3>現在式沒有 “is”</h3>
+          <p class="he big" lang="he" dir="rtl">אֲנִי תַּלְמִיד.</p>
+          <p class="translit">ani talmid.</p>
+          <p>我是學生。字面是「我 學生」，不需要「是」。</p>
+        </article>
+        <article class="grammar-card">
+          <h3>定冠詞是 ה</h3>
+          <p class="he big" lang="he" dir="rtl">בַּיִת → הַבַּיִת</p>
+          <p class="translit">bayit → habayit</p>
+          <p>「房子」變成「這棟房子」。ה 加在名詞前面。</p>
+        </article>
+        <article class="grammar-card">
+          <h3>形容詞放在名詞後面</h3>
+          <p class="he big" lang="he" dir="rtl">בַּיִת גָּדוֹל</p>
+          <p class="translit">bayit gadol</p>
+          <p>大房子。形容詞要跟名詞的性別一致。</p>
+        </article>
+        <article class="grammar-card">
+          <h3>名詞有性別</h3>
+          <p class="he big" lang="he" dir="rtl">טוֹב / טוֹבָה</p>
+          <p class="translit">tov / tova</p>
+          <p>好（陽性 / 陰性）。學單字時一起記性別。</p>
+        </article>
+      </div>
+      <button class="complete-btn" data-complete="grammar">標記完成</button>
+    </section>
+
+    <section class="lesson wrap" id="numbers" data-lesson="numbers">
+      <div class="lesson-head">
+        <span class="lesson-num">06</span>
+        <div>
+          <p class="lesson-kicker">數字</p>
+          <h2>1 到 10</h2>
+          <p class="lesson-time">約 5 分鐘</p>
+        </div>
+      </div>
+      <p class="section-lede">希伯來文數字會跟著名詞的性別變化。先看兩欄，先記住聲音，不用急著選對。</p>
+      <div class="number-table" id="numberTable"></div>
+      <button class="complete-btn" data-complete="numbers">標記完成</button>
+    </section>
+
+    <section class="lesson wrap" id="quiz" data-lesson="quiz">
+      <div class="lesson-head">
+        <span class="lesson-num">07</span>
+        <div>
+          <p class="lesson-kicker">檢查一下</p>
+          <h2>複習測驗</h2>
+          <p class="lesson-time">10 題 · 不計時</p>
+        </div>
+      </div>
+      <div class="quiz" id="quizBox"></div>
+      <div class="quiz-foot">
+        <button class="btn primary" id="quizCheck">看結果</button>
+        <button class="btn ghost" id="quizRetry" hidden>再試一次</button>
+        <span class="quiz-score" id="quizScore" aria-live="polite"></span>
+      </div>
+      <button class="complete-btn" data-complete="quiz">標記完成</button>
+    </section>
+
+    <footer class="footer wrap">
+      <p>希伯來文第一冊 · 繁體中文 · 零基礎</p>
+      <p class="footer-small">發音使用 macOS 希伯來文語音（Carmit）。轉寫是學習輔助，不是唯一標準。</p>
+    </footer>
+  </main>
+</div>
+
+<div class="modal" id="letterModal" hidden>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="關閉">×</button>
+    <div class="modal-letter" id="modalLetter" lang="he" dir="rtl"></div>
+    <h3 id="modalTitle"></h3>
+    <p class="modal-sound" id="modalSound"></p>
+    <p class="modal-example he" id="modalExample" lang="he" dir="rtl"></p>
+    <p class="modal-example-zh" id="modalExampleZh"></p>
+    <button class="audio-btn" id="modalAudio">聽發音</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
