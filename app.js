@@ -61,14 +61,15 @@
     { he: "תּוֹדָה רַבָּה", tr: "toda raba", zh: "非常謝謝", a: "toda-raba" },
     { he: "בְּבַקָּשָׁה", tr: "bevakasha", zh: "請／不客氣", a: "bevakasha" },
     { he: "סְלִיחָה", tr: "slikha", zh: "抱歉", a: "slikha" },
-    { he: "לְהִתְרָאוֹת", tr: "lehitraot", zh: "再見", a: "lehitraot" }
+    { he: "לְהִתְרָאוֹת", tr: "lehitraot", zh: "再見", a: "lehitraot" },
+    { he: "הָבָה נָגִילָה", tr: "hava nagila", zh: "來吧，讓我們歡喜（著名希伯來歌曲）", a: "hava-nagila" }
   ];
 
   var dialogue = [
-    { who: "Noa", he: "שָׁלוֹם! מָה שְׁלוֹמְךָ?", tr: "shalom! ma shlomkha?", zh: "你好！你好嗎？", a: "shalom" },
-    { who: "Dan", he: "שָׁלוֹם, טוֹב. תּוֹדָה.", tr: "shalom, tov. toda.", zh: "你好，我很好。謝謝。", a: "toda" },
-    { who: "Noa", he: "אֲנִי נוֹעָה. מָה שִׁמְךָ?", tr: "ani Noa. ma shimkha?", zh: "我是 Noa。你叫什麼名字？", a: "ani" },
-    { who: "Dan", he: "אֲנִי דָּן. לְהִתְרָאוֹת!", tr: "ani Dan. lehitraot!", zh: "我是 Dan。再見！", a: "lehitraot" }
+    { who: "Noa", he: "שָׁלוֹם! מָה שְׁלוֹמְךָ?", tr: "shalom! ma shlomkha?", zh: "你好！你好嗎？", a: "dialog-1" },
+    { who: "Dan", he: "שָׁלוֹם, טוֹב. תּוֹדָה.", tr: "shalom, tov. toda.", zh: "你好，我很好。謝謝。", a: "dialog-2" },
+    { who: "Noa", he: "אֲנִי נוֹעָה. מָה שִׁמְךָ?", tr: "ani Noa. ma shimkha?", zh: "我是 Noa。你叫什麼名字？", a: "dialog-3" },
+    { who: "Dan", he: "אֲנִי דָּן. לְהִתְרָאוֹת!", tr: "ani Dan. lehitraot!", zh: "我是 Dan。再見！", a: "dialog-4" }
   ];
 
   var numbers = [
